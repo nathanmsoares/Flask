@@ -76,6 +76,10 @@ def login():
         else:
             flash('Login Unsucessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
+    
+    
+    
+'''Comentário'''
 
 if __name__ == "__main__":
     app.run(debug=True)
